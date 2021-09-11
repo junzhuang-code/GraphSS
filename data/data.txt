@@ -1,0 +1,1 @@
+Under "data" directory, "attacker_data" and "noisy_label" should exist.
