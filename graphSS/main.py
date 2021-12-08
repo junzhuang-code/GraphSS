@@ -3,7 +3,7 @@
 """
 @title: Defending Graph Convolutional Networks against Dynamic Graph Perturbations via Bayesian Self-supervision
 @topic: Employ GraphSS model to infer labels
-@authors: Anonymous
+@authors: Jun Zhuang, Mohammad Al Hasan.
 """
 
 import sys
