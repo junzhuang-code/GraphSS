@@ -3,7 +3,7 @@
 """
 @title: Defending Graph Convolutional Networks against Dynamic Graph Perturbations via Bayesian Self-supervision
 @topic: GCN Models
-@authors: Anonymous
+@authors: Jun Zhuang, Mohammad Al Hasan.
 @references:
     https://docs.dgl.ai/tutorials/models/1_gnn/1_gcn.html
     https://github.com/williamleif/GraphSAGE
