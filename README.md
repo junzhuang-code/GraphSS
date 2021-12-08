@@ -1,9 +1,9 @@
 # Defending Graph Convolutional Networks against Dynamic Graph Perturbations via Bayesian Self-supervision
 
-### Authors: Anonymous
+### Authors: Jun Zhuang, Mohammad Al Hasan.
 
 ### Paper:
-Under reviewed by AAAI 2022'
+Accepted by AAAI 2022'
 
 ### Dataset:
  cora, citeseer, pubmed, amazoncobuy, coauthor
@@ -57,4 +57,5 @@ GNN-Jaccard: [Adversarial Examples on Graph Data: Deep Insights into Attack and 
 GNN-SVD: [All You Need Is Low (Rank): Defending Against Adversarial Attacks on Graphs](https://dl.acm.org/doi/pdf/10.1145/3336191.3371789) [[Code](https://github.com/DSE-MSU/DeepRobust/blob/master/deeprobust/graph/defense/gcn_preprocess.py)] \
 RGCN: [Robust Graph Convolutional Networks Against Adversarial Attacks](https://dl.acm.org/doi/10.1145/3292500.3330851) [[Code](https://github.com/DSE-MSU/DeepRobust/blob/master/deeprobust/graph/defense/r_gcn.py)] \
 GRAND: [Graph Random Neural Network for Semi-Supervised Learning on Graphs](https://arxiv.org/pdf/2005.11079.pdf) [[Code](https://github.com/THUDM/GRAND)] \
-ProGNN: [Graph Structure Learning for Robust Graph Neural Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403049) [[Code](https://github.com/ChandlerBang/Pro-GNN)]
+ProGNN: [Graph Structure Learning for Robust Graph Neural Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403049) [[Code](https://github.com/ChandlerBang/Pro-GNN)] \
+NRGNN: [NRGNN: Learning a Label Noise Resistant Graph Neural Network on Sparsely and Noisily Labeled Graphs](https://dl.acm.org/doi/abs/10.1145/3447548.3467364) [[Code](https://github.com/EnyanDai/NRGNN)]
