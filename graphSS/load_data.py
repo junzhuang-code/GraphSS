@@ -3,7 +3,7 @@
 """
 @title: Defending Graph Convolutional Networks against Dynamic Graph Perturbations via Bayesian Self-supervision
 @topic: Load dataset
-@authors: Anonymous
+@authors: Jun Zhuang, Mohammad Al Hasan.
 @references:
     https://docs.dgl.ai/api/python/data.html#citation-network-dataset
 """
