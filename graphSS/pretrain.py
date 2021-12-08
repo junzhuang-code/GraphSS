@@ -3,7 +3,7 @@
 """
 @title: Defending Graph Convolutional Networks against Dynamic Graph Perturbations via Bayesian Self-supervision
 @topic: Train the node classifier on the train graph
-@authors: Anonymous
+@authors: Jun Zhuang, Mohammad Al Hasan.
 """
 
 import os
@@ -116,7 +116,7 @@ def evaluation(model, optimizer, path, graph, feat, label, test_mask): # for dgl
     @return: print out the test acc.
     """
     try:
-        if not len(graph) == len(feat) == len(label) == len(test_mask):
+        if not graph.number_of_nodes() == len(feat) == len(label) == len(test_mask):
             return "The length of adj/feat/label/test_mask is not equal!"
         model.eval()
         model, optimizer, start_epoch, best_acc = load_checkpoint(path, model, optimizer)
@@ -136,7 +136,7 @@ def prediction(model, optimizer, path, graph, feat):
     @return: predicted label (1D Tensor), probabilistic matrix (2D Tensor).
     """
     try:
-        if len(graph) != len(feat):
+        if graph.number_of_nodes() != len(feat):
             return "The length of adj/feat is not equal!"
         model.eval()
         model, optimizer, _, _ = load_checkpoint(path, model, optimizer)
