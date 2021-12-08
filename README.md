@@ -5,6 +5,9 @@
 ### Paper:
 Accepted by AAAI 2022'
 
+### Abstract:
+In recent years, plentiful evidence illustrates that Graph Convolutional Networks (GCNs) achieve extraordinary accomplishments on the node classification task. However, GCNs may be vulnerable to adversarial attacks on label-scarce dynamic graphs. Intensive studies aim to strengthen the robustness of GCNs but most of them can barely handle this issue when the graph structure is label-scarce and dynamically changing. For example, adversarial training hardly trains a robust model in label-scarce circumstances. To overcome label scarcity, self-training attempts to iteratively assign pseudo-labels to highly confident unlabeled nodes but such attempts may suffer serious degradation under dynamic graph perturbations. In this paper, we generalize noisy supervision as a kind of self-supervised learning method and then propose a novel Bayesian self-supervision model, namely GraphSS, to address the issue. Extensive experiments demonstrate that GraphSS can not only affirmatively alert the perturbations on dynamic graphs but also effectively recover the prediction of a node classifier when the graph is under such perturbations. These two advantages prove to be generalized over three classic GCNs across five public graph datasets.
+
 ### Dataset:
  cora, citeseer, pubmed, amazoncobuy, coauthor
 
@@ -59,3 +62,14 @@ RGCN: [Robust Graph Convolutional Networks Against Adversarial Attacks](https://
 GRAND: [Graph Random Neural Network for Semi-Supervised Learning on Graphs](https://arxiv.org/pdf/2005.11079.pdf) [[Code](https://github.com/THUDM/GRAND)] \
 ProGNN: [Graph Structure Learning for Robust Graph Neural Networks](https://dl.acm.org/doi/pdf/10.1145/3394486.3403049) [[Code](https://github.com/ChandlerBang/Pro-GNN)] \
 NRGNN: [NRGNN: Learning a Label Noise Resistant Graph Neural Network on Sparsely and Noisily Labeled Graphs](https://dl.acm.org/doi/abs/10.1145/3447548.3467364) [[Code](https://github.com/EnyanDai/NRGNN)]
+
+### Cite
+Please cite our paper if you think this repo is helpful.
+```
+@article{zhuang2022defending,
+  title={Defending Graph Convolutional Networks against Dynamic Graph Perturbations via Bayesian Self-supervision},
+  author={Zhuang, Jun and Al Hasan, Mohammad},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2022}
+}
+```
