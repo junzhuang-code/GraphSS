@@ -3,7 +3,7 @@
 """
 @title: Defending Graph Convolutional Networks against Dynamic Graph Perturbations via Bayesian Self-supervision
 @topic: Model for Bayesian Self-supervision
-@authors: Anonymous
+@authors: Jun Zhuang, Mohammad Al Hasan.
 """
 
 import os
