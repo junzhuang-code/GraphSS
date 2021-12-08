@@ -3,7 +3,7 @@
 """
 @title: Defending Graph Convolutional Networks against Dynamic Graph Perturbations via Bayesian Self-supervision
 @topic: Implement Nettack
-@authors: Anonymous
+@authors: Jun Zhuang, Mohammad Al Hasan.
 @references:
     https://docs.dgl.ai/generated/dgl.DGLGraph.adjacency_matrix_scipy.html#dgl.DGLGraph.adjacency_matrix_scipy
 """
