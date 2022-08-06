@@ -67,9 +67,15 @@ NRGNN: [NRGNN: Learning a Label Noise Resistant Graph Neural Network on Sparsely
 Please cite our paper if you think this repo is helpful.
 ```
 @article{zhuang2022defending,
-  title={Defending Graph Convolutional Networks against Dynamic Graph Perturbations via Bayesian Self-supervision},
   author={Zhuang, Jun and Al Hasan, Mohammad},
+  year={2022},
+  month={Jun.},
+  title={Defending Graph Convolutional Networks against Dynamic Graph Perturbations via Bayesian Self-Supervision},
   journal={Proceedings of the AAAI Conference on Artificial Intelligence},
-  year={2022}
+  volume={36},
+  number={4},
+  pages={4405-4413},
+  DOI={10.1609/aaai.v36i4.20362},
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/20362}
 }
 ```
