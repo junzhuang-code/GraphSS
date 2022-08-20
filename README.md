@@ -19,7 +19,7 @@ In recent years, plentiful evidence illustrates that Graph Convolutional Network
  pytorch, dgl, numpy, scipy, sklearn, numba
 
 #### Clone this repo
-**git clone https://github.com/[user_name]/GraphSS.git** \
+**git clone https://github.com/junzhuang-code/GraphSS.git** \
 **cd GraphSS/graphSS**
 
 #### Install dependencies
